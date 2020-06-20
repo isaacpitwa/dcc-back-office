@@ -5,7 +5,7 @@ import { RouteWithLayout } from './components';
 import { MainLayout } from './layout';
 import { Home } from './views';
 
-const Routes = () => {
+const AppRouter = () => {
   return (
     <Switch>
       <RouteWithLayout
@@ -17,4 +17,4 @@ const Routes = () => {
   );
 }
 
-export default Routes;
+export default AppRouter;
