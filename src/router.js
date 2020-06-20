@@ -12,7 +12,7 @@ const AppRouter = () => {
     <Switch>
       <RouteWithLayout
         component={Home}
-        path={ROUTES}
+        path={ROUTES.LANDING}
         layout={MainLayout} />
         
     </Switch>
