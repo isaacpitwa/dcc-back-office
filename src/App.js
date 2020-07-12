@@ -1,7 +1,7 @@
 import React from 'react';
 import { createBrowserHistory } from 'history';
 import { Router } from 'react-router-dom';
-import Routes from './routes';
+import AppRouter from './router';
 import { Provider } from 'react-redux';
 import { store } from './utils/datasource'
 import {Client as Styletron} from 'styletron-engine-atomic';
@@ -39,7 +39,7 @@ const App = () => {
       <ReactReduxFirebaseProvider {...rrfProps}>
       <Router history={browserHistory}>
       <ReactNotification />
-        <Routes />
+        <AppRouter />
       </Router>
       </ReactReduxFirebaseProvider>
       {/* </FirebaseContext.Provider> */}

@@ -2,8 +2,8 @@ import React from 'react';
 import { Switch } from 'react-router-dom';
 
 import { RouteWithLayout } from './components';
-import { MainLayout } from './layout';
-import { Home } from './views';
+import { MainLayout, AuthLayout } from './layout';
+import { Home, Login } from './views';
 import * as ROUTES from './utils/constants/routes';
 
 
@@ -14,6 +14,10 @@ const AppRouter = () => {
         component={Home}
         path={ROUTES.LANDING}
         layout={MainLayout} />
+      <RouteWithLayout
+        component={Login}
+        path={ROUTES.LOGIN}
+        layout={AuthLayout} />
     </Switch>
   );
 }
