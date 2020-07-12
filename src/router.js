@@ -14,7 +14,6 @@ const AppRouter = () => {
         component={Home}
         path={ROUTES.LANDING}
         layout={MainLayout} />
-        
     </Switch>
   );
 }
