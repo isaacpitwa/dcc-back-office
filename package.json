@@ -21,8 +21,6 @@
     "react-redux-firebase": "^3.6.0",
     "redux-firestore": "^0.13.0",
     "react-notifications-component": "^2.4.0"
-
-
   },
   "scripts": {
     "start": "react-scripts start",
