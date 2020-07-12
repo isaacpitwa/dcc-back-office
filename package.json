@@ -14,7 +14,15 @@
     "react-scripts": "3.4.1",
     "react-thunk": "^1.0.0",
     "redux": "^4.0.5",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "baseui": "^9.84.0",
+    "email-validator": "^2.0.4",
+    "firebase": "^7.15.2",
+    "react-redux-firebase": "^3.6.0",
+    "redux-firestore": "^0.13.0",
+    "react-notifications-component": "^2.4.0"
+
+
   },
   "scripts": {
     "start": "react-scripts start",
