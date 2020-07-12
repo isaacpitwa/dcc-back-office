@@ -1,7 +1,6 @@
-Powered by  Redux with files in  wrapped
-### `src/utils`
-and attached it to the `App.js`
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# DCC-media back office
+This is the back office for the Discipleship app.
+It's fro content creation for the application 
 
 ## Available Scripts 
 
