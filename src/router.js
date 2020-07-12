@@ -13,7 +13,7 @@ const AppRouter = () => {
       <RouteWithLayout
         component={Home}
         path={ROUTES.LANDING}
-        layout={MainLayout} />
+        layout={MainLayout}  exact/>
       <RouteWithLayout
         component={Login}
         path={ROUTES.LOGIN}

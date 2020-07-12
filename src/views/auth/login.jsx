@@ -13,7 +13,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram,faFacebookF,faGoogle ,faTwitter,faLinkedinIn} from '@fortawesome/free-brands-svg-icons'
 import { compose } from 'redux'
 import { firebaseConnect, } from 'react-redux-firebase'
-import * as ROUTES from '../../../utils/routes'
+import * as ROUTES from '../../utils/constants/routes'
 const defaultProps = {};
 
 /**
