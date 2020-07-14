@@ -5,51 +5,51 @@ import {NavItem} from '../../../../components'
 import {faTh,faCog,faUsers,faAd,faDonate,faFilm} from '@fortawesome/free-solid-svg-icons'
  import {faFacebookF,faTwitter,faInstagram,} from '@fortawesome/free-brands-svg-icons'
 import {faCalendarAlt} from '@fortawesome/free-regular-svg-icons'
-
+import * as ROUTES from '../../../../utils/constants/routes' 
 
 
 
 const nav = [
   {
     title: <NavItem title = 'Dashboard' icon={faTh}/>,
-    itemId: '/',
+    itemId: ROUTES.DASHBOARD,
     
   },
   {
     title: <NavItem title = 'Events' icon={faCalendarAlt}/>,
-    itemId: '/dashboard/events',
+    itemId: ROUTES.EVENTS,
   },
   {
     title:  <NavItem title = 'Sermons' icon={faFilm}/>,
-    itemId: '/dashboard/sermons',
+    itemId: ROUTES.SERMONS,
   },
   {
     title: <NavItem title = 'Ministries' icon={faUsers}/>,
-    itemId: '/dashboard/donation',
+    itemId: ROUTES.MINISTRIES,
   },
   {
     title: <NavItem title = 'Donations' icon={faDonate}/>,
-    itemId: '/dashboard/donation',
+    itemId: ROUTES.DONATIONS,
   },
   {
     title: <NavItem title = 'Adverts' icon={faAd}/>,
-    itemId: '/dashboard/ads',
+    itemId: ROUTES.ADS,
   },
   {
     title: <NavItem title = 'Facebook ' icon={faFacebookF}/>,
-    itemId: '/dashboard/facebook-post',
+    itemId: ROUTES.FACEBOOK,
   },
   {
     title: <NavItem title = 'Twitter' icon={faTwitter}/>,
-    itemId: '/dashboard/twitter-post',
+    itemId: ROUTES.TWITTER,
   },
   {
     title: <NavItem title = 'Instagram' icon={faInstagram}/>,
-    itemId: '/dashboard/instagram-post',
+    itemId: ROUTES.INSTAGRAM,
   },
   {
     title: <NavItem title = 'Settings' icon={faCog}/>,
-    itemId: '/dashboard/settings',
+    itemId: ROUTES.SETTINGS,
   },
   
 ];
