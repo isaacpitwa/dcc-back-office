@@ -16,19 +16,27 @@ const nav = [
     
   },
   {
-    title: <NavItem title = 'Courses' icon={faHdd}/>,
+    title: <NavItem title = 'Events' icon={faHdd}/>,
     itemId: '/dashboard/courses',
   },
   {
-    title:  <NavItem title = 'Tests' icon={faFile}/>,
+    title:  <NavItem title = 'Sermons' icon={faFile}/>,
     itemId: '/dashboard/tests',
   },
   {
-    title: <NavItem title = 'Classes' icon={faUsers}/>,
+    title: <NavItem title = 'Donation Request' icon={faUsers}/>,
     itemId: '/dashboard/classes',
   },
   {
-    title: <NavItem title = 'Resources' icon={faFolder}/>,
+    title: <NavItem title = 'FacebookPost' icon={faFolder}/>,
+    itemId: '/dashboard/resources',
+  },
+  {
+    title: <NavItem title = 'Twitter' icon={faFolder}/>,
+    itemId: '/dashboard/resources',
+  },
+  {
+    title: <NavItem title = 'Instagram' icon={faFolder}/>,
     itemId: '/dashboard/resources',
   },
   {
