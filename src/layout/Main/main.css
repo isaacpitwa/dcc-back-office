@@ -1,0 +1,13 @@
+.dashboard-section{
+    display:flex;
+    height: 100%;
+}
+.sideNav{
+    flex:1;
+}
+/* .rightNav{
+    flex:3;
+} */
+.dashboard-section .content{
+    flex:5;
+}

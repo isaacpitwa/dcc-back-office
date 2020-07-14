@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Header, Footer } from './components';
-
+import { Header, Footer,SideNav } from './components';
+import './main.css'
 const Main = (props) => {
     const { children } = props;
 
@@ -10,14 +10,19 @@ const Main = (props) => {
             <Header />
 
             <main>
-                <div id="preloader">
-                    <div className="preloader-thumbnail">
-                        <img src="./img/core-img/preloader.png" alt="" />
+            <div className="dashboard-section">
+                    <div className="sideNav">
+                        <SideNav></SideNav>
                     </div>
+                    <div className="content">
+                        {children}
+                    </div>
+                    {/* <div className="rightNav"> */}
+                        {/* TODO: should renedr user's profile when no details to show */}
+                        {/* This is the details section */}
+                    {/* </div> */}
                 </div>
-                {children}
             </main>
-
             <Footer />
         </div>
     );

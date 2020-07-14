@@ -234,29 +234,29 @@ class Login extends React.Component {
                         flexGridColumnGap="scale100"
                         flexGridRowGap="scale100">
                         <FlexGridItem {...socialProps}>
-                            <Button shape={SHAPE.round} kind={KIND.secondary} $as="a" href="https://witsmind.com/" target="_blank">
+                            <Button shape={SHAPE.round} kind={KIND.secondary} $as="a" href="#" target="_blank">
                                 
                                 <FontAwesomeIcon icon={faInstagram} />
                             
                             </Button>
                         </FlexGridItem>
                         <FlexGridItem {...socialProps}>
-                            <Button shape={SHAPE.round} kind={KIND.secondary} $as="a" href="https://witsmind.com/" target="_blank">
+                            <Button shape={SHAPE.round} kind={KIND.secondary} $as="a" href="#"target="_blank">
                             <FontAwesomeIcon icon={faFacebookF} />
                             </Button>
                         </FlexGridItem>
                         <FlexGridItem {...socialProps}>
-                            <Button shape={SHAPE.round} kind={KIND.secondary} $as="a" href="https://witsmind.com/" target="_blank">
+                            <Button shape={SHAPE.round} kind={KIND.secondary} $as="a" href="#" target="_blank">
                             <FontAwesomeIcon icon={faGoogle} />
                             </Button>
                         </FlexGridItem>
                         <FlexGridItem {...socialProps}>
-                            <Button shape={SHAPE.round} kind={KIND.secondary} $as="a" href="https://witsmind.com/" target="_blank">
+                            <Button shape={SHAPE.round} kind={KIND.secondary} $as="a" href="#" target="_blank">
                             <FontAwesomeIcon icon={faTwitter} />
                             </Button>
                         </FlexGridItem>
                         <FlexGridItem {...socialProps}>
-                            <Button shape={SHAPE.round} kind={KIND.secondary} $as="a" href="https://witsmind.com/" target="_blank">
+                            <Button shape={SHAPE.round} kind={KIND.secondary} $as="a" href="#" target="_blank">
                             <FontAwesomeIcon icon={faLinkedinIn} />
                             </Button>
                         </FlexGridItem>
