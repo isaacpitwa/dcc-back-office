@@ -76,7 +76,7 @@ class Login extends React.Component {
           .login({email, password})
           .then(() => {
             this.setState({ ...INITIAL_STATE });
-            this.props.history.push('/');
+            this.props.history.push('/dashboard');
           })
           .catch(error => {
             this.setState({ error:error.message ,isSubmiting:false});
@@ -100,7 +100,7 @@ class Login extends React.Component {
           }).then(
             (authUser)=>{
                 this.setState({ ...INITIAL_STATE });
-                this.props.history.push('/');
+                this.props.history.push('/dashboard');
             }
         ).catch(error => {
             this.setState((currentState)=>({...currentState,error:error.message ,isSubmiting:false }));
@@ -125,7 +125,7 @@ class Login extends React.Component {
 
             >
                 <Cell span={6}>
-                    <Button size={SIZE.compact} kind={KIND.secondary} overrides={{ BaseButton: { style: {borderRadius:'4px' } } }} as='a' onClick={this.linktoSignUP}>Sign up</Button>
+                    <Button size={SIZE.compact} kind={KIND.secondary} overrides={{ BaseButton: { style: {borderRadius:'4px' } } }} as='a' onClick={this.linktoSignUP} disabled={true}>Sign up</Button>
                     <Block height='16vh'></Block>
                     <Label2 color='contentSecondary' >
                         welcome back

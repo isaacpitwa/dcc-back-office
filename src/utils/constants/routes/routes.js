@@ -1,5 +1,9 @@
 export const LANDING = '/';
 
+// dashboard routes
+export const DASHBOARD = '/dashboard';
+
+
 // Auth routes
 export const LOGIN = '/auth/login';
 export const REGISTER = '/auth/register';

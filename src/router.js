@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch } from 'react-router-dom';
+import { Switch ,Redirect} from 'react-router-dom';
 
 import { RouteWithLayout } from './components';
 import { MainLayout, AuthLayout } from './layout';
@@ -13,9 +13,15 @@ const AppRouter = () => {
       <RouteWithLayout
         component={Home}
         path={ROUTES.LANDING}
+        layout={MainLayout}  exact>
+           <Redirect to={ROUTES.LOGIN} />
+        </RouteWithLayout>
+        <RouteWithLayout
+        component={Home}
+        path={ROUTES.DASHBOARD}
         layout={MainLayout}  exact/>
       <RouteWithLayout
-        component={Login}
+        component={Login} 
         path={ROUTES.LOGIN}
         layout={AuthLayout} />
     </Switch>
