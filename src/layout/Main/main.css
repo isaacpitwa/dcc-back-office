@@ -8,6 +8,6 @@
 /* .rightNav{
     flex:3;
 } */
-.content {
+.dashboard-section .content{
     flex:5;
 }
