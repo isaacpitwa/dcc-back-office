@@ -18,16 +18,16 @@ import {
 } from "baseui/header-navigation";
 import './header.css'
 import { useHistory } from "react-router-dom";
-
+import * as ROUTES from '../../../../utils/constants/routes'
 
 const ITEMS = [
-    {label: 'Sermon',url:'/dashboard/sermons/new'},
-    {label: 'Event',url:'/dashboard/events/new'},
-    {label: 'Ministry',url:'/dashboard/ministries/new'},
-    {label: 'Support Donation',url:'/dashboard/donations/new'},
-    {label: 'Facebook Post',url:'/dashboard/facebook-post/new'},
-    {label: 'Twitter Post',url:'/dashboard/twitter-post/new'},
-    {label: 'Instagram Post',url:'/dashboard/instagram-post/new'},
+    {label: 'Sermon',url:ROUTES.NEW_SERMON},
+    {label: 'Event',url:ROUTES.NEW_EVENT},
+    {label: 'Ministry',url:ROUTES.NEW_MINISTRY},
+    {label: 'Support Donation',url:ROUTES.NEW_DONATION},
+    {label: 'Facebook Post',url:ROUTES.NEW_FACEBOOK},
+    {label: 'Twitter Post',url:ROUTES.NEW_TWITTER},
+    {label: 'Instagram Post',url:ROUTES.NEW_INSTAGRAM},
 
   ];
 const Header = () => {
