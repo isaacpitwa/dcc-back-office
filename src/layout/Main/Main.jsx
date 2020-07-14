@@ -23,7 +23,6 @@ const Main = (props) => {
                     {/* </div> */}
                 </div>
             </main>
-
             <Footer />
         </div>
     );
