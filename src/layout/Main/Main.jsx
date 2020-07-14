@@ -17,10 +17,10 @@ const Main = (props) => {
                     <div className="content">
                         {children}
                     </div>
-                    <div className="rightNav">
+                    {/* <div className="rightNav"> */}
                         {/* TODO: should renedr user's profile when no details to show */}
                         {/* This is the details section */}
-                    </div>
+                    {/* </div> */}
                 </div>
             </main>
 
