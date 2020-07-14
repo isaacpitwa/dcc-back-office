@@ -2,9 +2,9 @@ import React,{ useState } from 'react';
 import { Navigation } from 'baseui/side-navigation';
 import { useHistory } from "react-router-dom";
 import {NavItem} from '../../../../components'
-import {faTh,faCog,faUsers} from '@fortawesome/free-solid-svg-icons'
-//  import {faCog,} from '@fortawesome/free-brands-svg-icons'
-import {faFolder,faHdd,faFile} from '@fortawesome/free-regular-svg-icons'
+import {faTh,faCog,faUsers,faAd,faDonate,faFilm} from '@fortawesome/free-solid-svg-icons'
+ import {faFacebookF,faTwitter,faInstagram,} from '@fortawesome/free-brands-svg-icons'
+import {faCalendarAlt} from '@fortawesome/free-regular-svg-icons'
 
 
 
@@ -16,28 +16,36 @@ const nav = [
     
   },
   {
-    title: <NavItem title = 'Events' icon={faHdd}/>,
-    itemId: '/dashboard/courses',
+    title: <NavItem title = 'Events' icon={faCalendarAlt}/>,
+    itemId: '/dashboard/events',
   },
   {
-    title:  <NavItem title = 'Sermons' icon={faFile}/>,
-    itemId: '/dashboard/tests',
+    title:  <NavItem title = 'Sermons' icon={faFilm}/>,
+    itemId: '/dashboard/sermons',
   },
   {
-    title: <NavItem title = 'Donation Request' icon={faUsers}/>,
-    itemId: '/dashboard/classes',
+    title: <NavItem title = 'Ministries' icon={faUsers}/>,
+    itemId: '/dashboard/donation',
   },
   {
-    title: <NavItem title = 'FacebookPost' icon={faFolder}/>,
-    itemId: '/dashboard/resources',
+    title: <NavItem title = 'Donations' icon={faDonate}/>,
+    itemId: '/dashboard/donation',
   },
   {
-    title: <NavItem title = 'Twitter' icon={faFolder}/>,
-    itemId: '/dashboard/resources',
+    title: <NavItem title = 'Adverts' icon={faAd}/>,
+    itemId: '/dashboard/ads',
   },
   {
-    title: <NavItem title = 'Instagram' icon={faFolder}/>,
-    itemId: '/dashboard/resources',
+    title: <NavItem title = 'Facebook ' icon={faFacebookF}/>,
+    itemId: '/dashboard/facebook-post',
+  },
+  {
+    title: <NavItem title = 'Twitter' icon={faTwitter}/>,
+    itemId: '/dashboard/twitter-post',
+  },
+  {
+    title: <NavItem title = 'Instagram' icon={faInstagram}/>,
+    itemId: '/dashboard/instagram-post',
   },
   {
     title: <NavItem title = 'Settings' icon={faCog}/>,

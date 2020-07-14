@@ -21,13 +21,13 @@ import { useHistory } from "react-router-dom";
 
 
 const ITEMS = [
-    {label: 'Sermon',url:'/dashboard/settings'},
-    {label: 'Event',url:'/dashboard/tests/new'},
-    {label: 'Ministry',url:'/dashboard/courses/new'},
-    {label: 'Support Donation',url:'/dashboard/resources/new'},
-    {label: 'Facebook Post',url:'/dashboard/resources/new'},
-    {label: 'Twitter Post',url:'/dashboard/resources/new'},
-    {label: 'Instagram Post',url:'/dashboard/resources/new'},
+    {label: 'Sermon',url:'/dashboard/sermons/new'},
+    {label: 'Event',url:'/dashboard/events/new'},
+    {label: 'Ministry',url:'/dashboard/ministries/new'},
+    {label: 'Support Donation',url:'/dashboard/donations/new'},
+    {label: 'Facebook Post',url:'/dashboard/facebook-post/new'},
+    {label: 'Twitter Post',url:'/dashboard/twitter-post/new'},
+    {label: 'Instagram Post',url:'/dashboard/instagram-post/new'},
 
   ];
 const Header = () => {
