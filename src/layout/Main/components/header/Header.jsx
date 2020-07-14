@@ -16,7 +16,7 @@ import {
     StyledNavigationList,
     StyledNavigationItem
 } from "baseui/header-navigation";
-import './styles.css'
+import './header.css'
 import { useHistory } from "react-router-dom";
 
 
