@@ -1,4 +1,8 @@
 nav{
     display:flex;
     padding: 15px;
+    padding-left: 0;
+}
+img{
+    width: 15%;
 }

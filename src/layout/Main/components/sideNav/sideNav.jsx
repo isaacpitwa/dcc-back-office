@@ -54,7 +54,7 @@ export default () => {
           Root:{
             style:{
               height:'100vh',
-              width:'70%',
+              width:'20%',
             },
            
           },

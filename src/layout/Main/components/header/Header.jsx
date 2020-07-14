@@ -21,21 +21,21 @@ import { useHistory } from "react-router-dom";
 
 
 const ITEMS = [
-    {label: 'Test',url:'/dashboard/tests/new'},
-    {label: 'Course',url:'/dashboard/courses/new'},
-    {label: 'Resource',url:'/dashboard/resources/new'},
-    {label: 'Classroom',url:'/dashboard/settings'},
+    {label: 'Event',url:'/dashboard/tests/new'},
+    {label: 'Ministry',url:'/dashboard/courses/new'},
+    {label: 'Support Donation',url:'/dashboard/resources/new'},
+    {label: '',url:'/dashboard/settings'},
   ];
 const Header = () => {
     let history = useHistory();
     return (
         <nav >
             <StyledNavigationList $align={ALIGN.left}>
-                <StyledNavigationItem>WitsLearn</StyledNavigationItem>
+                <StyledNavigationItem><img src='./img/core-img/logo.png' alt="DCC"></img></StyledNavigationItem>
             </StyledNavigationList>
             <StyledNavigationList $align={ALIGN.left}>
                 <StyledNavigationItem>
-                   <Block width={['40px', '80px', '180px', '400px']}>
+                   <Block>
                    <Input
                         className="search"
                         overrides={{
@@ -52,9 +52,7 @@ const Header = () => {
                     
 
                 </StyledNavigationItem>
-                <Block
-                    width={['20px', '80px', '180px', '290px']}
-                />
+               
 
             </StyledNavigationList>
             <StyledNavigationList $align={ALIGN.right} >
